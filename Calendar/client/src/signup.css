@@ -1,0 +1,97 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 80vh;
+    border: 5px solid #000;
+    border-radius: 10px;
+    margin: auto;
+}
+.signupForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.nameInput {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.emailInput {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.passwordInput {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.name {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #a9a9a9;
+    transition: all 0.3s ease-in-out;
+}
+.email {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #a9a9a9;
+    transition: all 0.3s ease-in-out;
+}
+.password {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #a9a9a9;
+    transition: all 0.3s ease-in-out;
+}
+.submit {
+    border: none;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.name:active {
+    border-bottom: 2px solid #9758a3;
+}
+.name:focus {
+    border-bottom: 2px solid #9758a3;
+}
+.email:active {
+    border-bottom: 2px solid #9758a3;
+}
+.email:focus {
+    border-bottom: 2px solid #9758a3;
+}
+.password:active {
+    border-bottom: 2px solid #9758a3;
+}
+.password:focus {
+    border-bottom: 2px solid #9758a3;
+}
