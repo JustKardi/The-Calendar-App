@@ -43,4 +43,28 @@ body {
   border: 3px solid #4c7759;
   border-radius: 30px;
   margin: 10vh auto 5vh auto;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 6vh repeat(6, 1fr);
+  gap: 8px;
+  padding: 12px;
+  color: #4c7759;
+}
+.cal-grid-cell {
+  border: 2px solid #4c7759;
+  height: 11vh;
+  border-radius: 5px;
+}
+.cal-grid-cell_date {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding-left: 0.3vw;
+  font-weight: bold;
+}
+.now-cell {
+  height: 11vh;
+  border-radius: 5px;
+  background-color: #4c7759;
+  color: #87d89f;
 }
